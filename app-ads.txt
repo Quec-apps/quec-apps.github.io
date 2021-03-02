@@ -1,0 +1,3 @@
+#Ads.txt quec-apps.github.io
+
+google.com, pub-2583427355566393, DIRECT, f08c47fec0942fa0
