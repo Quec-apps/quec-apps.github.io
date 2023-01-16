@@ -26,25 +26,30 @@ body {
 }
 h1 {
     width: 60%;
-    font-size: 80px;
+    font-size: 50px;
     color: #ff293a;
+}
+h2 {
+    margin: 20px;
 }
 .logo-img {
     width: 60px;
     height: 60px;
 }
 p {
-    padding: 20px;
+    padding: 10px;
     font-size: 30px;
     color: rgb(69, 68, 68);
 }
 .ct-bg {
     display: flex; flex-wrap: wrap;
     justify-content: space-around;
+    padding-bottom: 20px;
 }
 .ct {
-    width: 200px;
-    height: 300px;
+    width: 400px;
+    height: 200px;
+    margin-top: 30px;
     background-color: rgb(241, 241, 241);
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2), -1px -1px 5px rgba(0, 0, 0, 0.2);
     color: rgb(60, 56, 56);
@@ -66,11 +71,23 @@ p {
     width: 100%;
     font-size: 20px;
     text-align: center;
-
+    text-decoration: none;
 }
 .ct-img {
     width: 60px;
     height: 60px;
+}
+
+.footer {
+    height: 40vh;
+    background-color: rgb(194, 194, 194);
+    display: flex; justify-content: space-around;
+    align-items: center;
+}
+.ftr-txt {
+    font-size: 20px;
+} .ftr-txt:hover {
+    color: #ff293a;
 }
 </style>
 </head>
@@ -79,7 +96,10 @@ p {
         <h1>Quec</h1>
         <img src="res/queclogo.png" class="logo-img">
     </div>
-    <p>Games you love</p>
+    <h2>About Quec</h2>
+    <p>
+        We are aimed to bring you a good app experience
+    </p>
 
     <div class="ct-bg">
         <a href="../kodeeshwaran/content3/bg_v4.html">
@@ -88,13 +108,44 @@ p {
                 <div class="ct-txt">Kodeeshwaran</div>
             </div>
         </a>
-        <a href="#" onclick="alert("This will available soon...")">
+        <a onclick="alert('This game will be available soon')" href="">
+            <div class="ct">
+                <img src="res/vlearn.png" class="ct-img">
+                <div class="ct-txt">vLearn<br>(Coming Soon...)</div>
+            </div>
+        </a>
+        <a onclick="alert('This game will be available soon')" href="">
             <div class="ct">
                 <img src="res/guess.png" class="ct-img">
                 <div class="ct-txt">Guess Malayalam Movie<br>(Coming Soon...)</div>
             </div>
         </a>
+        <a onclick="alert('This game will be available soon')" href="">
+            <div class="ct">
+                <img src="res/queball.png" class="ct-img">
+                <div class="ct-txt">Queball<br>(Coming Soon...)</div>
+            </div>
+        </a>
+        <a onclick="alert('This game will be available soon')" href="">
+            <div class="ct">
+                <img src="res/pixel.png" class="ct-img">
+                <div class="ct-txt">Pixel Art<br>(Coming Soon...)</div>
+            </div>
+        </a>
+        <a onclick="alert('This game will be available soon')" href="">
+            <div class="ct">
+                <img src="res/queplay.png" class="ct-img">
+                <div class="ct-txt">QuePlay<br>(Coming Soon...)</div>
+            </div>
+        </a>
         
+    </div>
+
+    <div class="footer">
+        <a href="https://sites.google.com/view/quec-apps-privacy/home"><div class="ftr-txt">Privacy</div></a>
+        <a onclick="alert('Currently Unavailable :(')" href="#"><div class="ftr-txt">Facebook</div></a>
+        <a onclick="alert('Currently Unavailable :(')" href="#"><div class="ftr-txt">Instagram</div></a>
+        <a onclick="alert('Currently Unavailable :(')" href="#"><div class="ftr-txt">LinkedIn</div></a>
     </div>
 </body>
 </html>
